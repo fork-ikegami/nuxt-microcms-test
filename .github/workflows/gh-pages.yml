@@ -34,9 +34,11 @@ jobs:
           node-version: ${{ matrix.node }}
 
       - name: Install dependencies
+        working-directory: ./blog
         run: npm i
       
       - name: Generate
+        working-directory: ./blog
         run: npm run generate
         env:
           API_KEY: ${{ secrets.API_KEY }}
@@ -46,4 +48,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          publish_dir: ./blog/dist
