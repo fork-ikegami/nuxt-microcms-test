@@ -5,7 +5,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/nuxt-microcms-test/'
+    base: '/blog/'
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
