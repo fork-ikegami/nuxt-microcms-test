@@ -36,7 +36,7 @@ jobs:
 
       #- run: npm ci
       #- run: npm test
-      - run: npm run generate
+      - run: cd blog && npm run generate
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
