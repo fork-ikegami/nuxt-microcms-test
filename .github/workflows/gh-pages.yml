@@ -38,6 +38,7 @@ jobs:
 
       #- run: npm ci
       #- run: npm test
+      - run: cd blog
       - run: npm i
       - run: npm generate
         env:
