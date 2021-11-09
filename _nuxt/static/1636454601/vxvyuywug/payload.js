@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/vxvyuywug", (function(a,b){return {data:[{id:"vxvyuywug",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"ぶろぐ２",body:"\u003Cp\u003Eぶろぐ２\u003C\u002Fp\u003E",category:{id:"category1",createdAt:b,updatedAt:"2021-11-09T09:55:59.821Z",publishedAt:b,revisedAt:b,name:"カテゴリ１"}}],fetch:{},mutations:void 0}}("2021-11-09T09:35:19.250Z","2021-11-05T09:36:15.915Z")));

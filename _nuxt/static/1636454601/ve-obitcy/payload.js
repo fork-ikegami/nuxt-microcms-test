@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/ve-obitcy", (function(a){return {data:[{id:"ve-obitcy",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"ぶろぐ８",body:"\u003Cp\u003Eぶろぐ８\u003C\u002Fp\u003E",category:null}],fetch:{},mutations:void 0}}("2021-11-09T09:36:24.484Z")));

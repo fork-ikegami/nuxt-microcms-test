@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/6g-mid3u3", (function(a){return {data:[{id:"6g-mid3u3",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"ぶろぐ６",body:"\u003Cp\u003Eぶろぐ６\u003C\u002Fp\u003E",category:null}],fetch:{},mutations:void 0}}("2021-11-09T09:36:01.208Z")));

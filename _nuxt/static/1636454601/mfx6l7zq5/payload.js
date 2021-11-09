@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/mfx6l7zq5", (function(a){return {data:[{id:"mfx6l7zq5",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"ぶろぐ３",body:"\u003Cp\u003Eぶろぐ３\u003C\u002Fp\u003E",category:null}],fetch:{},mutations:void 0}}("2021-11-09T09:35:30.275Z")));

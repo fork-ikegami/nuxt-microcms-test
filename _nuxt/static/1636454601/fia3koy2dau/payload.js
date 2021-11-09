@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/fia3koy2dau", (function(a){return {data:[{id:"fia3koy2dau",createdAt:a,updatedAt:a,publishedAt:a,revisedAt:a,title:"ぶろぐ４",body:"\u003Cp\u003Eぶろぐ４\u003C\u002Fp\u003E",category:null}],fetch:{},mutations:void 0}}("2021-11-09T09:35:38.759Z")));
