@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   data() {
     return {
@@ -22,12 +24,11 @@ export default {
     }
 
     // idとdraftKeyを使ってAPIリクエスト
-    const { data } = await $microcms.get({
-      endpoint: 'blog/${query.id}',
-      queries: {
-        draftKey: query.draftKey,
+    const { data } = await $axios.get(
+      `https://nuxt-microcms-test.microcms.io/api/v1/blog/${query.id}?draftKey=${query.draftKey}`, {
+        headers: { 'X-MICROCMS-API-KEY': '66eab1ad5b2f4871a67a3bc693924cd6389d' }
       }
-    })
+    )
     this.data = data;
   }
 }
