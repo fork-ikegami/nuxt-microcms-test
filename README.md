@@ -6,5 +6,5 @@ Nuxt.js × microCMSのテスト環境
 ここにpushするとGitHub Actionsが走る
 - develop  
 作業用
-- gh-page  
+- gh-pages  
 GitHub Actionsからデプロイされ、GitHub Pagesで公開される
