@@ -24,6 +24,8 @@ export default {
     }
 
     // idとdraftKeyを使ってAPIリクエスト
+    // プレビュー機能のみなので、閲覧できる状況は限られているが
+    // この方法ではAPIキーを見られてしまうので注意
     const { data } = await axios.get(
       `https://nuxt-microcms-test.microcms.io/api/v1/blog/${query.id}?draftKey=${query.draftKey}`, {
         headers: { 'X-MICROCMS-API-KEY': '66eab1ad5b2f4871a67a3bc693924cd6389d' }
