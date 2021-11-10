@@ -24,7 +24,7 @@ export default {
     }
 
     // idとdraftKeyを使ってAPIリクエスト
-    const { data } = await $axios.get(
+    const { data } = await axios.get(
       `https://nuxt-microcms-test.microcms.io/api/v1/blog/${query.id}?draftKey=${query.draftKey}`, {
         headers: { 'X-MICROCMS-API-KEY': '66eab1ad5b2f4871a67a3bc693924cd6389d' }
       }
